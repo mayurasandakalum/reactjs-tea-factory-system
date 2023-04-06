@@ -6,7 +6,7 @@ const Paths = {
   CustomerOrder: "/customerorder",
   Machine: "/machine",
   Finance: "/finance",
-  TimeTarget: "t/imetarget",
+  TimeTarget: "/timetarget",
   SupplierPayment: "/supplierpayment",
 };
 
