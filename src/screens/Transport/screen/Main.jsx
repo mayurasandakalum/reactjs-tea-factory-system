@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import CssBaseline from "@mui/material/CssBaseline";
@@ -11,15 +11,14 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import Grid from "@mui/material/Grid";
+import { Link, useLocation } from "react-router-dom";
 
 import Content from "../components/Content";
 
 import Logo from "../assets/svgs/Logo";
 import { DrawerData } from "../sources/DrawerData";
-import { Link, useLocation } from "react-router-dom";
 
 const drawerWidth = 270;
-// const pathname = window.location;
 
 const Main = (props) => {
   const currentPath = useLocation();
@@ -30,10 +29,6 @@ const Main = (props) => {
   const handleDrawerToggle = () => {
     setMobileOpen(!mobileOpen);
   };
-
-  useEffect(() => {
-    console.log(currentPath);
-  }, []);
 
   //! Need to edit when initialize the project
   const functionName = "Raw materials and Transport Management System";

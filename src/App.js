@@ -1,10 +1,5 @@
 import Home from "./screens/Home";
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-  useMatch,
-} from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Paths } from "./utils/Paths";
 
 import SupplierQuantity from "./screens/SupplierQuantity";
