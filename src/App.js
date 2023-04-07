@@ -4,7 +4,7 @@ import { Paths } from "./utils/Paths";
 
 import SupplierQuantity from "./screens/SupplierQuantity/SupplierQuantity";
 import Transport from "./screens/Transport/Transport";
-import Warehouse from "./screens/Warehouse";
+import Warehouse from "./screens/Warehouse/Warehouse";
 import CustomerOrder from "./screens/CustomerOrder/CustomerOrder";
 import Machine from "./screens/Machine/Machine";
 import Finance from "./screens/Finance";
