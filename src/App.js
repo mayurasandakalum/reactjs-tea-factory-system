@@ -9,7 +9,7 @@ import CustomerOrder from "./screens/CustomerOrder/CustomerOrder";
 import Machine from "./screens/Machine/Machine";
 import Finance from "./screens/Finance/Finance";
 import TimeTarget from "./screens/TimeTarget";
-import SupplierPayment from "./screens/SupplierPayment";
+import SupplierPayment from "./screens/SupplierPayment/SupplierPayment";
 
 function App() {
   return (
