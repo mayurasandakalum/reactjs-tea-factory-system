@@ -7,7 +7,7 @@ import Transport from "./screens/Transport/Transport";
 import Warehouse from "./screens/Warehouse/Warehouse";
 import CustomerOrder from "./screens/CustomerOrder/CustomerOrder";
 import Machine from "./screens/Machine/Machine";
-import Finance from "./screens/Finance";
+import Finance from "./screens/Finance/Finance";
 import TimeTarget from "./screens/TimeTarget";
 import SupplierPayment from "./screens/SupplierPayment";
 
