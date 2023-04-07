@@ -6,11 +6,11 @@ export const DrawerData = [
     path: Paths["Dashboard"],
   },
   {
-    title: "AddIncomes",
+    title: "Add Incomes",
     path: Paths["AddIncomes"],
   },
   {
-    title: "AddExpenses",
+    title: "Add Expenses",
     path: Paths["AddExpenses"],
   },
   {

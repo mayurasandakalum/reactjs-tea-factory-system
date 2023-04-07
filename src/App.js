@@ -8,7 +8,7 @@ import Warehouse from "./screens/Warehouse/Warehouse";
 import CustomerOrder from "./screens/CustomerOrder/CustomerOrder";
 import Machine from "./screens/Machine/Machine";
 import Finance from "./screens/Finance/Finance";
-import TimeTarget from "./screens/TimeTarget";
+import TimeTarget from "./screens/TimeTarget/TimeTarget";
 import SupplierPayment from "./screens/SupplierPayment/SupplierPayment";
 
 function App() {
