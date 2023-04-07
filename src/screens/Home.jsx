@@ -62,14 +62,10 @@ function getWindowSize() {
 }
 
 const ImageButton = styled(ButtonBase)(({ theme }) => ({
-  // position: "relative",
-  // top: "50%",
-  // transform: "translateY(-50%)",
-  // marginLeft: 30,
   margin: "1%",
   height: 300,
   [theme.breakpoints.down("sm")]: {
-    width: "100% !important", // Overrides inline-style
+    width: "100% !important",
     height: 100,
   },
   "&:hover, &.Mui-focusVisible": {
